@@ -1,0 +1,10 @@
+name = "zain-rag-chatbot"
+main = "main.py"
+compatibility_date = "2024-03-08"
+
+[build]
+command = "pip install -r requirements.txt"
+
+[[routes]]
+pattern = "*"
+zone_name = "your-domain.com" # Optional - only if you have custom domain
